@@ -1,0 +1,11 @@
+version: 
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - echo ïnstalling dependencies..."
+      - npm install
+      - npm install -g 
+
+      
